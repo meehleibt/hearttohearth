@@ -1,0 +1,77 @@
+html {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
+}
+
+/* ===========
+Main Colors 
+===========*/
+
+.teal {
+    color: #2E4249;
+}
+
+.blue {
+    color: #3C5870;
+}
+
+.pink {
+    color: #DEC9D0;
+}
+
+.coral {
+    color: #A5565C;
+}
+
+.yellow {
+    color: #CB874A;
+}
+
+/* ===========
+Background Colors 
+===========*/
+
+.bg-teal {
+    background-color: #2E4249;
+}
+
+.bg-blue {
+    background-color: #3C5870;
+}
+
+.bg-pink {
+    background-color: #DEC9D0;
+}
+
+.bg-coral {
+    background-color: #A5565C;
+}
+
+.bg-yellow {
+    background-color: #CB874A;
+}
+
+/* ===========
+Text Styles
+===========*/
+.p-bm {
+    margin-bottom: 15px;
+}
+
+
+/* ===========
+Nav Styles
+===========*/
+
+.nav-links {
+    height: 80px;
+}
+
+.nav-links a:hover {
+    color: #CB874A;
+    border-bottom: solid 5px #A5565C;
+}
+
+/* ===========
+Responsive Styles
+===========*/
