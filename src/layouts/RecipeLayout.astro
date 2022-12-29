@@ -1,0 +1,10 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+---
+<BaseLayout pageTitle={frontmatter.title}>
+    <p>Family Recipe: {frontmatter.family}</p>
+    <slot />
+
+</BaseLayout>

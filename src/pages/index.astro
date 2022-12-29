@@ -1,5 +1,11 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import '../styles/global.css';
+
 const pageTitle = 'Heart to Hearth';
 ---
-
+<BaseLayout pageTitle={pageTitle}>
+    <h1>Hello World!</h1>
+</BaseLayout>
 
