@@ -2,12 +2,15 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import RecipesCategory from "../components/RecipesCategory.astro";
 
-const allRecipes = await Astro.glob('../pages/recipes/meehleib/*.md');
+var allRecipes = [];
+allRecipes = allRecipes
+    .concat(await Astro.glob('../pages/recipes/meehleib/*.md'))
+    .concat(await Astro.glob('../pages/recipes/ward/*.md'));
 const pageTitle = 'Family Recipes';
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <p>This is where you will see the list of recipes available.</p>
+    <p>This is where you will see the list of all recipes available.</p>
     <ul>
         {allRecipes.map((post) => <RecipesCategory url={post.url} title={post.frontmatter.title} />)}
     </ul>
