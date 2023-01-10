@@ -1,5 +1,5 @@
 html {
-    background-color: #f1f5f9;
+    background-color: #fafafa;
     font-family: sans-serif;
 }
 
@@ -8,30 +8,37 @@ Text Styles
 ===========*/
 h1 {
     font-size: 3.052rem;
+    font-family: "Cinzel Decorative", sans-serif;
 }
 
 h2 {
     font-size: 2.441rem;
+    font-family: "Cinzel", sans-serif;
 }
 
 h3 {
     font-size: 1.953rem;
+    font-family: "Cinzel", sans-serif;
 }
 
 h4 {
     font-size: 1.563rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 h5 {
     font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 small, .text_small {
     font-size: 0.8rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 p {
     margin-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -50,48 +57,64 @@ ol {
 Main Colors 
 ===========*/
 
-.teal {
-    color: #2E4249;
+.maroon {
+    color: #7B0207;
 }
 
-.blue {
-    color: #3C5870;
+.red {
+    color: #B8301A;
 }
 
-.pink {
-    color: #DEC9D0;
+.salmon {
+    color: #FBA67D;
 }
 
-.coral {
-    color: #A5565C;
+.peach {
+    color: #FDBB99;
 }
 
-.yellow {
-    color: #CB874A;
+.sage {
+    color: #A2A592;
+}
+
+.green {
+    color: #6D7661;
+}
+
+.lt-grey {
+    color: #fafafa;
 }
 
 /* ===========
 Background Colors 
 ===========*/
 
-.bg-teal {
-    background-color: #2E4249;
+.bg-maroon {
+    background-color: #7B0207;
 }
 
-.bg-blue {
-    background-color: #3C5870;
+.bg-red {
+    background-color: #B8301A;
 }
 
-.bg-pink {
-    background-color: #DEC9D0;
+.bg-salmon {
+    background-color: #FBA67D;
 }
 
-.bg-coral {
-    background-color: #A5565C;
+.bg-peach {
+    background-color: #FDBB99;
 }
 
-.bg-yellow {
+.bg-sage {
     background-color: #CB874A;
+}
+
+.bg-green {
+    background-color: #6D7661;
+}
+
+.bg-lt-grey {
+    background-color: #fafafa;
 }
 
 /* ===========
@@ -105,6 +128,10 @@ Nav Styles
 .nav-links a:hover {
     color: #CB874A;
     border-bottom: solid 5px #A5565C;
+}
+
+li {
+    list-style: none;
 }
 
 /* ===========
