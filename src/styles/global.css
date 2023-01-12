@@ -6,6 +6,7 @@ html {
 /* ===========
 Text Styles
 ===========*/
+
 h1 {
     font-size: 3.052rem;
     font-family: "Cinzel Decorative", sans-serif;
@@ -51,6 +52,11 @@ ol {
     list-style-type: decimal;
     list-style-position: inside;
     padding-left: 1.5rem;
+}
+
+#brand-name {
+    font-size: 1.953rem;
+    font-family: "Cinzel", sans-serif;
 }
 
 /* ===========
