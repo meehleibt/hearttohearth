@@ -10,6 +10,7 @@ const pageTitle = 'Family Recipes';
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+    <h1 class="my-20 text-center">{pageTitle}</h1>
     <p>This is where you will see the list of all recipes available.</p>
     <ul>
         {allRecipes.map((post) => <RecipesCategory url={post.url} title={post.frontmatter.title} />)}

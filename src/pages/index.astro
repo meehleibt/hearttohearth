@@ -3,9 +3,22 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import '../styles/global.css';
 
+import heroImage from '../images/hh-chicken-filipino-dish.png';
+
 const pageTitle = 'Heart to Hearth';
 ---
 <BaseLayout pageTitle={pageTitle}>
-    <h2>Hello World!</h2>
+    <div class="grid grid-cols-6 mt-4">
+        <div class="col-span-2">
+            <img src={heroImage} alt="" class="w-full">
+        </div>
+        <div class="hero-content col-span-4 bg-sage py-14">
+            <h2 class="uppercase text-center text-5xl lt-grey">Family Recipes</h2>
+            <p class="lt-grey p-10 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="home-btns">
+                
+            </div>
+        </div>
+    </div>
 </BaseLayout>
 

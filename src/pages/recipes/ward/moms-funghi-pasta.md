@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/RecipeLayout.astro
-title: 'Fungi Pasta'
+title: "Mom's Fungi Pasta"
 family: 'Ward'
 tags: ['mushroom', 'pasta', 'italian']
 ---

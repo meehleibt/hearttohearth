@@ -1,16 +1,18 @@
 ---
-import navLogo from '../images/logos/heart-to-hearth-logo-header.png';
+import logo from '../images/logos/heart-to-hearth-logo-header.png';
 ---
 
-<div class="mb-2 sm:mb-0">
-    <a href="/"> 
-        <img src="{navLogo}" alt="Heart to Hearth nav bar logo."/>
-        <!-- <span id="brand-name">Heart to Hearth</span> -->
-    </a>
-</div>
-
-<div>
-    <a href="/" class="uppercase ml-10">Home</a>
-    <a href="/about/" class="uppercase ml-10">About</a>
-    <a href="/recipes/" class="uppercase ml-10">Family Recipes</a>
-</div>
+<nav class="flex py-10">
+    <div>
+        <a href="/" class="flex flex-wrap items-center"> 
+            <img src={logo} alt="Heart to Hearth nav bar logo."/>
+            <span id="brand-name" class="pl-3">Heart to Hearth</span>
+        </a>
+    </div>
+    
+    <div class="ml-auto self-center">
+        <a href="/" class="uppercase pl-16 text-xl">Home</a>
+        <a href="/about/" class="uppercase pl-16 text-xl">About</a>
+        <a href="/recipes/" class="uppercase pl-16 text-xl">Family Recipes</a>
+    </div>
+</nav>
